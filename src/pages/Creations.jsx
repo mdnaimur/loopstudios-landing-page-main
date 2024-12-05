@@ -1,8 +1,13 @@
+import { Creation } from "../Components/Creation";
+
 export const Creations = () => {
   return (
-    <div>
-      Our creations See all Deep earth Night arcade Soccer team VR The grid From
-      up above VR Pocket borealis The curiosity Make it fisheye
-    </div>
+    <section className="creation_section">
+      <h2 className="creations-title">Our creations</h2>
+      <button className="all_button"> See all </button>
+      <div className="creation_grid">
+        <Creation />
+      </div>
+    </section>
   );
 };
