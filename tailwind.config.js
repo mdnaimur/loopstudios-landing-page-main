@@ -6,6 +6,13 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        sm: '375px',
+        md: '480px',
+        lg: '768px',
+        xl: '967px',
+        xxl: '1440px'
+      },
       fontFamily: {
         alata: ['Alata', 'sans-serif'],
         josefin: ['"Josefin Sans"', 'sans-serif'],

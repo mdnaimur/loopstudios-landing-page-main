@@ -4,7 +4,11 @@ export const HeaderPage = () => {
   return (
     <div>
       <NavbarPage />
-      Immersive experiences that deliver
+      <div className="banner">
+        <div className="banner-content">
+          <p>Immersive experiences that deliver</p>{" "}
+        </div>
+      </div>
     </div>
   );
 };

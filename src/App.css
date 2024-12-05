@@ -1,0 +1,53 @@
+@tailwind base;
+
+@layer base {
+  .nav-items {
+    @apply flex justify-center items-center text-primary-1
+        sm:flex-col sm:items-start sm:gap-8 sm:uppercase
+        lg:flex-row lg:gap-4 lg:capitalize 
+        xl:gap-8;
+  }
+
+  .nav-items a {
+    @apply relative
+        sm:font-['Josefin_Sans'] sm:text-3xl
+        lg:font-['Alata'] lg:text-base;
+  }
+
+  .hoverable {
+    @apply pb-2
+        after:absolute after:left-1/2 after:translate-x-[-50%] after:bottom-0 after:z-[41] after:w-0 after:border-t-2 after:rounded-full
+         hover:after:w-1/2 hover:after:transition-[width];
+  }
+
+  .nav-item .hoverable {
+    @apply sm:after:left-0 sm:after:translate-x-[0] sm:hover:after:w-full
+        lg:after:left-1/2 lg:after:translate-x-[-50%] md:hover:after:w-1/2;
+  }
+
+  /* banner design  */
+  .banner {
+    @apply basis-full grow flex justify-center items-center text-primary-1
+    sm:h-screen sm:pr-[5rem]
+    md:h-screen md:pr-[8rem]
+   
+    lg:justify-start
+    lg:px-[10%];
+  }
+
+  .banner-content {
+    @apply border border-primary-1 font-josefin 
+    sm:basis-full sm:p-7 sm:text-4xl
+    md:text-[3em] md:p-12
+    lg:max-w-[15ch] 
+    xl:text-6xl;
+  }
+
+  .banner-content p {
+    @apply uppercase leading-tight
+    sm:max-w-[10ch]
+    lg:max-w-[15ch];
+  }
+
+  /* end of layer */
+}
