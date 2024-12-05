@@ -49,5 +49,39 @@
     lg:max-w-[15ch];
   }
 
+  /* Intro Section */
+
+  .intro-section {
+    @apply grid gap-8
+    sm:px-6 sm:py-24
+    md:px-8
+    lg:px-[10%] lg:py-16 lg:grid-cols-8 lg:grid-rows-4 lg:gap-0
+    xl:grid-rows-3;
+  }
+
+  .intro-img {
+    @apply lg:row-start-1 lg:row-end-4 lg:col-start-1 lg:col-end-8;
+  }
+
+  .intro-content {
+    @apply text-center bg-primary-1
+    sm:text-center
+    lg:row-start-2 lg:row-end-5 lg:col-start-3 lg:col-end-9 lg:p-16 lg:text-left
+    xl:row-start-2 xl:row-end-4 xl:col-start-5;
+  }
+
+  .content-title {
+    @apply font-josefin leading-tight  uppercase
+    sm:text-4xl
+    md:text-[2em];
+  }
+
+  .content-text {
+    @apply text-primary-3
+    sm:p-6 sm:pb-0
+    md:p-10
+    lg:p-0 lg:mt-8;
+  }
+
   /* end of layer */
 }
