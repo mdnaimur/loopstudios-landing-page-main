@@ -10,7 +10,7 @@ function App() {
     <>
       <div className="App">
         <div className="min-h-screen relative overflow-hidden">
-          <div className="min-h-screen bg-no-repeat bg-cover bg-center relative flex flex-wrap justify-center items-center lg:flex-nowrap lg:flex-col lg:justify-start lg:items-stretch sm:bg-[url('../images/mobile/image-hero.jpg')]  lg:bg-[url('../images/desktop/image-hero.jpg')]">
+          <div className="min-h-screen bg-no-repeat bg-cover bg-center relative flex flex-wrap justify-center items-center lg:flex-nowrap lg:flex-col lg:justify-start lg:items-stretch sm:bg-[url('../src/assets/images/mobile/image-hero.jpg')]  lg:bg-[url('../src/assets/images/desktop/image-hero.jpg')]">
             <HomePage />
           </div>
           <IntroPage />
