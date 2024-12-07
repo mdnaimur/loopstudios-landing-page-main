@@ -129,5 +129,57 @@
     @apply absolute bottom-4 left-4 text-2xl font-josefin max-w-[8ch] z-20 transition;
   }
 
+  /* Footer */
+
+  .footer,
+  .footer_navigation,
+  .footer_navlink,
+  .socials,
+  .social_links {
+    @apply flex justify-center items-center;
+  }
+  .footer {
+    @apply bg-primary-2 text-primary-1 text-center py-16 gap-12
+    sm:flex-col
+    lg:px-[10%] lg:py-8 lg:flex-row lg:justify-center;
+  }
+
+  .footer_navigation {
+    @apply text-primary-1 gap-8
+    sm:flex-col
+    lg:items-start;
+  }
+
+  .footer_navigation .brand_logo {
+    @apply w-32;
+  }
+
+  .footer_navlink {
+    @apply gap-4
+    sm:flex-col
+    lg:flex-row;
+  }
+
+  .footer_navlink a {
+    @apply relative;
+  }
+
+  .socials {
+    @apply gap-4
+    sm:flex-col
+    lg:items-end;
+  }
+
+  .social_links {
+    @apply gap-4;
+  }
+
+  .social_links a {
+    @apply relative;
+  }
+  .copyright {
+    @apply text-primary-3 text-sm;
+  }
+
   /* end of layer */
 }
