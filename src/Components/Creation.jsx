@@ -25,7 +25,7 @@ export const Creation = () => {
         </picture>
 
         <div className="creation_title">
-          <span className="">Deep earth</span>
+          <span className="creation_title_text">Deep earth</span>
         </div>
       </div>
 
@@ -36,7 +36,7 @@ export const Creation = () => {
         </picture>
 
         <div className="creation_title">
-          <span className=""> Night arcade</span>
+          <span className="creation_title_text"> Night arcade</span>
         </div>
       </div>
       <div className="creations">
@@ -46,7 +46,7 @@ export const Creation = () => {
         </picture>
 
         <div className="creation_title">
-          <span className=""> Soccer team VR </span>
+          <span className="creation_title_text"> Soccer team VR </span>
         </div>
       </div>
 
@@ -57,7 +57,7 @@ export const Creation = () => {
         </picture>
 
         <div className="creation_title">
-          <span className="">The grid </span>
+          <span className="creation_title_text">The grid </span>
         </div>
       </div>
 
@@ -68,7 +68,7 @@ export const Creation = () => {
         </picture>
 
         <div className="creation_title">
-          <span className="">From up above VR </span>
+          <span className="creation_title_text">From up above VR </span>
         </div>
       </div>
 
@@ -79,7 +79,7 @@ export const Creation = () => {
         </picture>
 
         <div className="creation_title">
-          <span className="">Pocket borealis </span>
+          <span className="creation_title_text">Pocket borealis </span>
         </div>
       </div>
 
@@ -90,7 +90,7 @@ export const Creation = () => {
         </picture>
 
         <div className="creation_title">
-          <span className="">The curiosity</span>
+          <span className="creation_title_text">The curiosity</span>
         </div>
       </div>
 
@@ -101,7 +101,7 @@ export const Creation = () => {
         </picture>
 
         <div className="creation_title">
-          <span className=""> Make it fisheye</span>
+          <span className="creation_title_text"> Make it fisheye</span>
         </div>
       </div>
     </>

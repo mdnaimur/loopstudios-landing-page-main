@@ -83,5 +83,51 @@
     lg:p-0 lg:mt-8;
   }
 
+  /* creation section */
+
+  .creation_section {
+    @apply flex justify-center items-center gap-4 pb-24 mb-24
+    sm:flex-col sm:p-4
+    md:p-8
+    lg:px-[10%] lg:flex-row lg:flex-wrap lg:mb-16;
+  }
+
+  .creations_title {
+    @apply font-josefin text-[2.5em] py-8
+    sm:text-4xl sm:order-1
+    md:text-[2.5em]
+    lg:grow;
+  }
+
+  .all_button {
+    @apply border-2 border-primary-2 px-16 py-2 my-4 transition
+    sm:order-3
+    hover:bg-primary-2 hover:text-primary-1
+    lg:order-2;
+  }
+  .creation_grid {
+    @apply grid
+    sm:order-2 sm:grid-cols-1 sm:gap-4
+    md:gap-8 md:grid-cols-2 md:grid-flow-row
+    lg:order-3 lg:basis-full lg:gap-4 lg:grid-cols-4 lg:grid-flow-row;
+  }
+
+  .creations {
+    @apply relative max-w-fit;
+  }
+
+  .creation_img {
+  }
+
+  .creation_title {
+    @apply absolute top-0  left-0 w-full h-full bg-gradient-to-r
+     from-primary-2 opacity-70 z-10 text-primary-1 transition
+     hover:bg-primary-1 hover:text-primary-2 hover:bg-none;
+  }
+
+  .creation_title_text {
+    @apply absolute bottom-4 left-4 text-2xl font-josefin max-w-[8ch] z-20 transition;
+  }
+
   /* end of layer */
 }
