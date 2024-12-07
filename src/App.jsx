@@ -1,6 +1,7 @@
 import "./App.css";
 
 import { Creations } from "./pages/Creations";
+import { FooterPage } from "./pages/FooterPage";
 import { HomePage } from "./pages/HomePage";
 import { IntroPage } from "./pages/IntroPage";
 
@@ -14,6 +15,7 @@ function App() {
           </div>
           <IntroPage />
           <Creations />
+          <FooterPage />
         </div>
       </div>
     </>
