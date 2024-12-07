@@ -1,5 +1,6 @@
 import "./App.css";
 
+import { Creations } from "./pages/Creations";
 import { HomePage } from "./pages/HomePage";
 import { IntroPage } from "./pages/IntroPage";
 
@@ -12,6 +13,7 @@ function App() {
             <HomePage />
           </div>
           <IntroPage />
+          <Creations />
         </div>
       </div>
     </>
